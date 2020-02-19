@@ -1,7 +1,20 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: solid 1px hidden;
+  opacity: 0.6;
+}
+
 .landing {
   position: relative;
-  background: url("./img/cartographer.png") no-repeat center center/cover;
-  background-color: rgba(20, 20, 20, 0.7);
+  background: url('./img/cartographer.png') no-repeat center center/cover;
+  background-color: rgba(30, 141, 36, 0.7);
   height: 100vh;
 }
 

@@ -1,6 +1,5 @@
-import React from "react";
-import LogoBianco from "../../img/logoBianco.png";
-import PropTypes from "prop-types";
+import React from 'react';
+import LogoBianco from '../../img/logoBianco.png';
 
 const Landing = props => {
   return (
@@ -16,7 +15,5 @@ const Landing = props => {
     </div>
   );
 };
-
-Landing.propTypes = {};
 
 export default Landing;

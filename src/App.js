@@ -1,8 +1,15 @@
-import React from "react";
-import "./App.css";
+import React, { Fragment } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from "./components/layout/Landing";
+
+import "./App.scss";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Fragment>
+      <Landing />
+    </Fragment>
+  );
 }
 
 export default App;
